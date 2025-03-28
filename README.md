@@ -22,3 +22,6 @@ Pendências:
 Colocar o broker em um local geograficamente distante e coletar os dados.
 
 ## Desenvolvimento do modelo
+
+1- Pub-sub imagens normal com o broker, coletando tempo de comunicação.
+2- Comunicação entre o produtor da imagem e o consumidor com UDP, coletando tempo de comunicação.
