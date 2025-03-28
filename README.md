@@ -1,2 +1,26 @@
 # Desenvolvimento de um modelo híbrido de comunicação
-Esse repositório está sendo criado com o objetivo de salvar o desenvolvimento do novo Modelo Híbrido de Comnicação.
+
+Cronograma - Entregas
+
+1- Definição da aplicação para testes do modelo de comunicação;
+2- Testes de desempenho da aplicação no modelo de comunicação atual;
+3- Desenvolvimento do novo modelo de comunicação do PIS;
+4- Testes de dese,penho do novo modelo e comparações;
+5- Inserção do novo modelo de comunicação do PIS;
+6- Entrega da versão final, defesa e versão final.
+
+## Aplicação para testes
+
+TUDO OK
+
+A aplicação definida para ser usada nos testes do modelo de comunicação e validação do novo modelo é a "is-person-detector", essa aplicação recebe imagens vindas dos gateways das câmeras, faz a detectção de pessoas e publica em tópicos específicos, para que sejam consumidas e usadas conform necessário. 
+
+A aplicação se encontra no repositório: [JoabFelippx/is-person-detector](https://github.com/JoabFelippx/is-person-detector)
+
+## Testes de desempenho da aplicação no modelo atual
+
+Foi usada a aplicação [is-commtrace-exporter](https://github.com/labviros/is-commtrace-exporter) para coletar os dados referentes ao tempo de comunicação entre os Gateway das câmeras e a aplicação. A aplicação is-person-detector foi modificada para que fosse possível medir o tempo de comunicação.
+
+Pendências:
+
+Colocar o broker em um local geograficamente distante e coletar os dados.
