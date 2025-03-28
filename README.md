@@ -13,9 +13,7 @@ Cronograma - Entregas
 
 TUDO OK
 
-A aplicação definida para ser usada nos testes do modelo de comunicação e validação do novo modelo é a "is-person-detector", essa aplicação recebe imagens vindas dos gateways das câmeras, faz a detectção de pessoas e publica em tópicos específicos, para que sejam consumidas e usadas conform necessário. 
-
-A aplicação se encontra no repositório: [JoabFelippx/is-person-detector](https://github.com/JoabFelippx/is-person-detector)
+A aplicação definida para ser usada nos testes do modelo de comunicação e validação do novo modelo é a [is-person-detector](https://github.com/JoabFelippx/is-person-detector), essa aplicação recebe imagens vindas dos gateways das câmeras, faz a detectção de pessoas e publica em tópicos específicos, para que sejam consumidas e usadas conform necessário. 
 
 ## Testes de desempenho da aplicação no modelo atual
 
