@@ -5,7 +5,7 @@ Cronograma - Entregas
 1- Definição da aplicação para testes do modelo de comunicação;
 2- Testes de desempenho da aplicação no modelo de comunicação atual;
 3- Desenvolvimento do novo modelo de comunicação do PIS;
-4- Testes de dese,penho do novo modelo e comparações;
+4- Testes de desempenho do novo modelo e comparações;
 5- Inserção do novo modelo de comunicação do PIS;
 6- Entrega da versão final, defesa e versão final.
 
@@ -20,3 +20,5 @@ Foi usada a aplicação [is-commtrace-exporter](https://github.com/labviros/is-c
 Pendências:
 
 Colocar o broker em um local geograficamente distante e coletar os dados.
+
+## Desenvolvimento do modelo
