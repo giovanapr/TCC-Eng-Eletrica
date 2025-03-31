@@ -1,4 +1,4 @@
-# Desenvolvimento de um modelo híbrido de comunicação
+# Modelo híbrido de comunicação
 
 Cronograma - Entregas
 
