@@ -6,4 +6,4 @@
 
 [Passo 3](https://github.com/giovanapr/TCC-Eng-Eletrica/tree/main/is-hybrid-communication/Passo%203) - Começar uma comunicação pub/sub e depois passar para socket.
 
-Passo 4
+Passo 4 - Problema: o tipo da mensagem que tá sendo eniado pelo consumidor para aplicação hc.
