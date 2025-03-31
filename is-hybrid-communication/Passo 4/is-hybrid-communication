@@ -1,0 +1,25 @@
+from is_wire.core import Channel, Subscription, Message, Logger
+
+service_name = "Hybrid.Communication"
+log = Logger(name=service_name)
+
+channel = Channel(f'amqp://guest:guest@10.10.2.211:30000')
+log.info(f"Created channel - amqp://guest:guest@10.10.2.211:30000")
+
+while True:
+    subscription = Subscription(channel)
+    subscription.subscribe(topic="Hybrid.Communication.Consumer")
+
+    log.info('Waiting for Consumer Messages')
+    msg = channel.consume()
+
+    msg = msg.body.decode('latin1')
+
+    topic = msg[0]
+    HOST = msg[1]
+    PORT = msg[2]
+
+    msg_hc = (1,HOST,PORT)
+
+    channel.publish(img_msg, topic=f'Hybrid.Communication.{topic}')
+
